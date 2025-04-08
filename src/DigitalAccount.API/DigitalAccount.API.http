@@ -1,0 +1,6 @@
+@DigitalAccount.API_HostAddress = http://localhost:5210
+
+GET {{DigitalAccount.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
