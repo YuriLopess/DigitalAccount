@@ -1,4 +1,6 @@
-﻿namespace DigitalAccount.Domain.Contracts.UseCases.AddCustomer
+﻿using DigitalAccount.Domain.Entities;
+
+namespace DigitalAccount.Domain.Contracts.UseCases.AddCustomer
 {
     public interface IAddCustomerInterface
     {
