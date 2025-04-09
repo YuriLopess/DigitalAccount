@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.API", ,"src\DigitalAccount.API\DigitalAccount.API.csproj", "{D8DD28AF-B3B1-43BF-9617-8A750DD71274}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.API", "src\DigitalAccount.API\DigitalAccount.API.csproj", "{D8DD28AF-B3B1-43BF-9617-8A750DD71274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.Test", "tests\DigitalAccount.Test\DigitalAccount.Test.csproj", "{9DC12BF1-18C9-47E7-8FA8-5139EA45CEB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D8DD28AF-B3B1-43BF-9617-8A750DD71274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DD28AF-B3B1-43BF-9617-8A750DD71274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DD28AF-B3B1-43BF-9617-8A750DD71274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC12BF1-18C9-47E7-8FA8-5139EA45CEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC12BF1-18C9-47E7-8FA8-5139EA45CEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC12BF1-18C9-47E7-8FA8-5139EA45CEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC12BF1-18C9-47E7-8FA8-5139EA45CEB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
